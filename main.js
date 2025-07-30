@@ -10,7 +10,7 @@ for (let i = 0; i < 7; i++) {
   if (i < 3) {
     eDisco.dataset.cor = "branco";
   }
-  if (i == 3) {
+ else if (i == 3) {
     eDisco.dataset.cor = "transparente";
   } else {
     eDisco.dataset.cor = "preto";
